@@ -1,50 +1,47 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=36&pause=1000&color=0088CC&center=true&vCenter=true&width=600&lines=Hey+I'm+Yogesh+👋;Aspiring+Software+Developer;CS+Student+%7C+Problem+Solver" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=36&pause=1000&color=0088CC&center=true&vCenter=true&width=600&lines=Hey+I'm+Yogesh+👋;2nd+Year+CS+Student;Learning+%7C+Building+%7C+Breaking+Things" alt="Typing SVG" />
 </h1>
 
 <p align="center">
-  <a href="https://yogeshdevx.github.io/xportfolio" target="_blank">
+  <a href="https://yogeshdevx.github.io/Portfolio/" target="_blank">
     <img src="https://img.shields.io/badge/🌐_Live_Portfolio-Visit_Now-0088CC?style=for-the-badge&logoColor=white" alt="Live Portfolio"/>
   </a>
   &nbsp;
   <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="Status"/>
   &nbsp;
   <img src="https://img.shields.io/badge/Built_With-HTML%20CSS%20JS-orange?style=for-the-badge" alt="Tech"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Mobile-Responsive-blueviolet?style=for-the-badge" alt="Responsive"/>
 </p>
+
+---
+
+## 👋 About This Project
+
+Hey! I'm Yogesh, a second-year B.Tech CS student at **Chandra Shekhar Azad University of Agriculture & Technology (Campus – Etawah)**. I built this portfolio to have something to show when people ask *"do you have any projects?"* — and also because I genuinely wanted to get better at frontend stuff.
+
+I'm into Data Structures & Algorithms and have solved 50+ problems on LeetCode so far. Still learning, still building.
+
+It's built with plain HTML, CSS, and JavaScript — no frameworks, no npm install hell. Just open `index.html` and it works.
 
 ---
 
 ## ✨ Preview
 
-### 🌅 Light Mode — Hero Section
 ![Portfolio Light Mode Preview](portfolio_data/preview_light.png)
-
-### 🌙 Dark Mode — Sections Overview
-![Portfolio Dark Mode Preview](portfolio_data/preview_dark.png)
-
-### 🌗 Theme & Features Showcase
-![Feature Banner](portfolio_data/preview_banner.png)
-
-### 📱 Responsive on All Devices
-![Mobile Responsive Preview](portfolio_data/preview_mobile.png)
 
 ---
 
-## 🚀 Features
+## 🚀 What's Inside
 
 | Feature | Details |
 |---|---|
-| 🎨 **Light / Dark Mode** | Smooth toggle with `localStorage` preference saved |
-| ⚡ **GSAP Animations** | Scroll-triggered entrance animations + hero reveal |
-| ✍️ **Typed.js Role Switcher** | Auto-cycling animated text in the hero section |
-| 📱 **Fully Responsive** | Mobile hamburger menu, tablet + desktop layouts |
-| 🔢 **Loading Screen** | Pill-shaped animated loader with live percentage |
-| 🎓 **Education Timeline** | Visual career/education journey section |
-| 🛠️ **Tech Stack Grid** | Icon grid showcasing all skills |
-| 📬 **Contact + Social** | Direct email and social link icons |
-| ⬇️ **Resume Download** | One-click PDF resume download button |
+| 🎨 **Light / Dark Mode** | Toggle with preference saved to `localStorage` |
+| ⚡ **GSAP Animations** | Scroll-triggered animations + hero reveal |
+| ✍️ **Typed.js** | Animated role-switcher text in the hero |
+| 📱 **Responsive** | Mobile hamburger menu + works on all screen sizes |
+| 🔢 **Loading Screen** | Animated pill-shaped loader with percentage counter |
+| 🎓 **Education Timeline** | My academic journey so far |
+| 🛠️ **Skills Grid** | Tech I've been learning and using |
+| 📬 **Contact Section** | Links to reach me |
 
 ---
 
@@ -64,64 +61,44 @@
 ## 📂 Project Structure
 
 ```
-xportfolio/
-├── index.html              # Main HTML structure
+Portfolio/
+├── index.html              # All the HTML structure
 ├── style.css               # Styling, themes, responsive layout
-├── script.js               # Animations, theme toggle, navigation
+├── script.js               # Animations, theme toggle, nav logic
 └── portfolio_data/
-    ├── YOGESH - Resume.pdf # Downloadable resume
-    ├── preview_light.png   # Light mode screenshot
-    ├── preview_dark.png    # Dark mode screenshot
-    ├── preview_mobile.png  # Mobile view screenshot
-    └── preview_banner.png  # Feature banner
+    ├── YOGESH - Resume.pdf # My resume (PDF)
+    └── preview_light.png   # Screenshot for this README
 ```
 
 ---
 
-## ⚡ Getting Started
+## ⚡ Running Locally
 
 ```bash
-# 1. Clone the repository
-git clone https://github.com/yogeshdevx/xportfolio.git
+# Clone it
+git clone https://yogeshdevx.github.io/Portfolio/
+cd Portfolio
 
-# 2. Open in browser (no build step needed)
-cd xportfolio
-# Just open index.html in any modern browser!
+# No installs needed — just open index.html in any browser
 ```
 
-> **No dependencies to install** — Pure HTML, CSS & JS. Open `index.html` directly or deploy to any static host.
-
----
-
-## 🌍 Deployment
-
-This portfolio is deployed on **GitHub Pages** (or Vercel). To deploy your own:
-
-**GitHub Pages:**
-1. Push code to GitHub
-2. Go to **Settings → Pages → Branch: main → / (root)**
-3. Your site will be live at `https://yourusername.github.io/xportfolio`
-
-**Vercel:**
-```bash
-npx vercel --prod
-```
+> Pure HTML/CSS/JS — no build tools, no node_modules. It just works.
 
 ---
 
 ## 📱 Sections
 
-- 🏠 **Hero** — Name + animated role + CTA buttons
-- 👤 **About** — Short bio / introduction
-- 🧠 **What I Do** — Service cards (Problem Solving, Web Dev, Backend)
-- 💻 **Tech Stack** — Skills grid with icons
-- 📁 **Featured Work** — Project showcase cards
-- 🎓 **Education** — Career & education timeline
-- 📬 **Contact** — Email + GitHub + LinkedIn + LeetCode + Instagram
+- 🏠 **Hero** — Name, animated role text, and CTA buttons
+- 👤 **About** — A quick intro about me
+- 🧠 **What I Do** — Problem Solving, Web Dev, Backend Systems
+- 💻 **Tech Stack** — Skills I've picked up so far
+- 📁 **Projects** — Scientific Calculator + more coming
+- 🎓 **Education** — B.Tech CSE @ CSAUAT Etawah
+- 📬 **Contact** — Ways to reach me
 
 ---
 
-## 🤝 Connect With Me
+## 🤝 Find Me Here
 
 <p align="center">
   <a href="https://github.com/yogeshdevx" target="_blank">
@@ -151,4 +128,4 @@ npx vercel --prod
   <img src="https://komarev.com/ghpvc/?username=yogeshdevx&label=Profile+Views&color=0088cc&style=flat" alt="Profile views"/>
 </p>
 
-<p align="center">Made with ❤️ by <strong>Yogesh</strong> • © 2024</p>
+<p align="center">Made with ❤️ by <strong>Yogesh</strong> • B.Tech CSE @ CSAUAT Etawah</p>

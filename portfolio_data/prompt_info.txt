@@ -1,0 +1,16 @@
+PROMPT FOR RECREATING THE PORTFOLIO:
+
+"Create a high-end, premium portfolio website using only HTML5, Vanilla CSS3, and modern JavaScript. The design should 'WOW' the user, featuring a deep dark theme with vibrant purple and cyan accents. 
+
+Key Requirements:
+1.  Structure: A single-page layout with smooth scrolling. Include sections for:
+    - Hero: A large, bold 'YOGESH' heading with a rotating role subtitle (Developer/Engineer).
+    - About Me: A concise professional summary.
+    - What I Do: High-quality service cards with glassmorphism and 'hover scale' effects.
+    - Tech Stack: A clean grid for technology icons (React, Next.js, Node, etc.).
+    - Work: A premium project card with image overlay effects.
+    - Career/Education: A clean timeline layout with glowing dots.
+    - Contact: A grid for email, social links, and a resume download button.
+2.  Design & Aesthetics: Use glassmorphism, subtle gradients, and floating background circles with blur effects.
+3.  Interactivity: Implement a custom 'difference' blend-mode cursor and GSAP-powered scroll animations for a dynamic feel.
+4.  Technology: Ensure it works perfectly with a single HTML file + CSS and JS files, using CDNs for GSAP and Google Fonts (Poppins/Inter)."

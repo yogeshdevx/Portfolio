@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOGESH | Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="loading">
+    <!-- Loading Page -->
+    <div id="loader">
+        <div class="loader-bg-text">FULL STACK DEVELOPER • SOFTWARE ENGINEER • PROBLEM SOLVER • FULL STACK DEVELOPER • SOFTWARE ENGINEER • PROBLEM SOLVER • </div>
+        <div class="loader-top">
+            <span class="loader-y">Y</span>
+            <div class="loader-bars">
+                <span></span><span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="loader-pill">
+            <span class="loader-text">LOADING</span>
+            <span class="loader-percentage">0%</span>
+        </div>
+    </div>
+
+
+    <!-- Background Elements -->
+    <div class="bg-blur">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">YOGESH</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">What I Do</a></li>
+            <li><a href="#tech">Tech</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div style="display:flex;align-items:center;gap:0.8rem;">
+            <div class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-sun"></i>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1 class="glitch-text">YOGESH</h1>
+                <h2 class="role-switcher"><span class="role"></span></h2>
+                <div class="hero-cta">
+                    <a href="#work" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <div class="container">
+                <div class="section-title">
+                    <span class="subtitle">About Me</span>
+                    <h2>A Passionate Developer</h2>
+                </div>
+                <div class="about-content">
+                    <p>Second-year B.Tech Computer Science student with a strong interest in Data Structures & Algorithms and Software Development. Actively solving coding problems and building projects while strengthening core computer science fundamentals. Seeking opportunities to grow as a Software Developer and contribute to real-world projects.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- What I Do Section -->
+        <section id="services" class="services section-padding">
+            <div class="container">
+                <div class="section-title">
+                    <span class="subtitle">Services</span>
+                    <h2>What I Do</h2>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card glass">
+                        <i class="fas fa-code"></i>
+                        <h3>Problem Solving</h3>
+                        <p>Solving complex problems using Data Structures and Algorithms with a focus on efficiency.</p>
+                    </div>
+                    <div class="service-card glass">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Web Development</h3>
+                        <p>Building responsive and dynamic web applications using modern technologies.</p>
+                    </div>
+                    <div class="service-card glass">
+                        <i class="fas fa-database"></i>
+                        <h3>Backend Systems</h3>
+                        <p>Developing robust server-side logic and managing databases efficiently.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Stack Section -->
+        <section id="tech" class="tech section-padding">
+            <div class="container">
+                <div class="section-title">
+                    <span class="subtitle">Skills</span>
+                    <h2>My Tech Stack</h2>
+                </div>
+                <div class="tech-grid">
+                    <div class="tech-item"><i class="fab fa-react"></i><span>React</span></div>
+                    <div class="tech-item"><i class="fab fa-node-js"></i><span>Node.js</span></div>
+                    <div class="tech-item"><i class="fab fa-js"></i><span>JavaScript</span></div>
+                    <div class="tech-item"><i class="fab fa-html5"></i><span>HTML5</span></div>
+                    <div class="tech-item"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+                    <div class="tech-item"><i class="fab fa-python"></i><span>Python</span></div>
+                    <div class="tech-item"><i class="fas fa-database"></i><span>MySQL</span></div>
+                    <div class="tech-item"><i class="fab fa-git-alt"></i><span>Git</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Section -->
+        <section id="work" class="work section-padding">
+            <div class="container">
+                <div class="section-title">
+                    <span class="subtitle">Portfolio</span>
+                    <h2>Featured Work</h2>
+                </div>
+                <div class="work-grid">
+                    <div class="work-card glass">
+                        <div class="work-img">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <div class="work-info">
+                            <h3>Scientific Calculator</h3>
+                            <p>A high-performance calculator built with JavaScript, HTML, and CSS.</p>
+                            <a href="#" class="view-project">View Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education/Timeline Section -->
+        <section id="education" class="education section-padding">
+            <div class="container">
+                <div class="section-title">
+                    <span class="subtitle">Journey</span>
+                    <h2>Career & Education</h2>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass">
+                            <h3>B.Tech - Computer Science & Engineering</h3>
+                            <span class="date">2024 - 2028</span>
+                            <p>Chandra Shekhar Azad University of Agriculture & Technology (Campus – Etawah)</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass">
+                            <h3>Coding Achievements</h3>
+                            <p>Solved 50+ problems on LeetCode focusing on Arrays, Strings, and Recursion.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding">
+            <div class="container">
+                <div class="section-title">
+                    <span class="subtitle">Get In Touch</span>
+                    <h2>Contact Me</h2>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info glass">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span>Email</span>
+                                <p>yogeshdevx@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/yogeshdevx" target="_blank" title="GitHub" class="github">
+                                <svg viewBox="0 0 24 24" width="28" height="28" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="12" cy="12" r="11" fill="black"/>
+                                    <path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12c0-5.523-4.477-10-10-10z" fill="white"/>
+                                </svg>
+                            </a>
+                            <a href="https://linkedin.com/in/yogeshdevx/" target="_blank" title="LinkedIn" class="linkedin">
+                                <svg viewBox="0 0 24 24" width="28" height="28" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="24" height="24" rx="4" fill="#0077B5"/>
+                                    <path d="M6.5 20V9h-3.5v11h3.5zM4.75 7.64c1.12 0 2.03-.91 2.03-2.03 0-1.12-.91-2.03-2.03-2.03-1.12 0-2.03.91-2.03 2.03 0 1.12.91 2.03 2.03 2.03zM20 20v-6.22c0-3.04-1.63-4.46-3.79-4.46-1.75 0-2.53.96-2.96 1.63v-1.45h-3.5v11h3.5v-6.14c0-.33.02-.66.12-.89.28-.66.88-1.34 1.9-1.34 1.34 0 1.88 1.02 1.88 2.52v5.85h3.5z" fill="white"/>
+                                </svg>
+                            </a>
+                            <a href="https://leetcode.com/u/yogeshdevx/" target="_blank" title="LeetCode" class="leetcode-icon leetcode">
+                                <svg viewBox="0 0 24 24" width="28" height="28" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.102 17.93l-2.697 2.607c-.466.467-1.111.662-1.823.662s-1.357-.195-1.824-.662l-4.332-4.363c-.467-.467-.702-1.15-.702-1.863s.235-1.357.702-1.824l4.235-4.235c.163-.163.43-.163.593 0l.594.594l.594.594c.163.163.163.43 0 .593l-4.235 4.235c-.164.164-.232.463-.232.735 0 .272.068.571.232.735l4.333 4.333c.162.162.461.23.733.23.272 0 .57-.068.733-.23l2.697-2.697c.163-.163.43-.163.593 0l.594.594c.163.163.163.43 0 .593" fill="black"/>
+                                    <path d="M19.749 14.254l-3.994 3.913a.412.412 0 0 1-.593 0l-.594-.594l-.594-.594a.412.412 0 0 1 0-.593l3.994-3.913c.163-.163.43-.163.593 0l.594.594c.163.163.163.43 0 .593zm0-3.676l-3.994 3.913a.412.412 0 0 1-.593 0l-.594-.594a.412.412 0 0 1 0-.593l3.994-3.913a.412.412 0 0 1 .593 0l.594.594a.412.412 0 0 1 0 .593l-3.994 3.913c-.163.163-.163.43 0 .593l.594.594c.163.163.163.43 0 .593z" fill="#FFA116"/>
+                                    <path d="M12.483 4.812l5.882 3.398c.323.187.691.288 1.066.288s.743-.101 1.066-.288l2.697-1.557a.412.412 0 0 0 0-.714L13.483.414a1.374 1.374 0 0 0-1.921 0L1.788 6.039a.412.412 0 0 0 0 .714l2.697 1.557c.323.187.691.288 1.066.288s.743-.101 1.066-.288l5.882-3.398c.131-.075.293-.075.424 0z" fill="#FFA116"/>
+                                    <rect x="13" y="11" width="8" height="2" rx="1" fill="#B0B0B0"/>
+                                </svg>
+                            </a>
+                            <a href="https://instagram.com/yogeshdevx" target="_blank" title="Instagram" class="instagram">
+                                <svg viewBox="0 0 24 24" width="28" height="28" xmlns="http://www.w3.org/2000/svg">
+                                    <defs>
+                                        <linearGradient id="instagrad" x1="0%" y1="100%" x2="100%" y2="0%">
+                                            <stop offset="0%" style="stop-color:#f09433;stop-opacity:1" />
+                                            <stop offset="25%" style="stop-color:#e6683c;stop-opacity:1" />
+                                            <stop offset="50%" style="stop-color:#dc2743;stop-opacity:1" />
+                                            <stop offset="75%" style="stop-color:#cc2366;stop-opacity:1" />
+                                            <stop offset="100%" style="stop-color:#bc1888;stop-opacity:1" />
+                                        </linearGradient>
+                                    </defs>
+                                    <rect width="24" height="24" rx="6" fill="url(#instagrad)"/>
+                                    <path d="M12 7.5a4.5 4.5 0 100 9 4.5 4.5 0 000-9zm0 7.3a2.8 2.8 0 110-5.6 2.8 2.8 0 010 5.6zm5.3-7.5a1.1 1.1 0 11-2.2 0 1.1 1.1 0 012.2 0zM12 2c2.7 0 3 .01 4.1.06 1 .04 1.6.21 2 .36.5.2 1 .46 1.4.9.44.44.7.9.9 1.4.15.4.32 1 .37 2 .05 1.1.06 1.4.06 4.1s-.01 3-.06 4.1c-.04 1-.21 1.6-.37 2-.2.5-.46 1-.9 1.4-.44.44-.9.7-1.4.9-.4.15-1 .32-2 .37-1.1.05-1.4.06-4.1.06s-3-.01-4.1-.06c-1-.04-1.6-.21-2-.36-.5-.2-1-.46-1.4-.9-.44-.44-.7-.9-.9-1.4-.15-.4-.32-1-.37-2-.05-1.1-.06-1.4-.06-4.1s.01-3 .06-4.1c.04-1 .21-1.6.36-2 .2-.5.46-1 .9-1.4.44-.44.9-.7 1.4-.9.4-.15 1-.32 2-.37C9 2.01 9.3 2 12 2m0-1.8c-2.8 0-3.1.01-4.2.06-1.1.05-1.9.23-2.6.5-.7.27-1.3.65-1.9 1.25s-1 1.2-1.25 1.9c-.27.65-.45 1.45-.5 2.56-.05 1.1-.06 1.46-.06 4.25s.01 3.15.06 4.25c.05 1.1.23 1.9.5 2.56.27.7.65 1.3 1.25 1.9s1.2 1 1.9 1.25c.65.27 1.45.45 2.56.5 1.1.05 1.46.06 4.25.06s3.15-.01 4.25-.06c1.1-.05 1.9-.23 2.56-.5.7-.27 1.3-.65 1.9-1.25s1-1.2 1.25-1.9c.27-.65.45-1.45.5-2.56.05-1.1.06-1.46.06-4.25s-.01-3.15-.06-4.25c-.05-1.1-.23-1.9-.5-2.56-.27-.7-.65-1.3-1.25-1.9s-1.2-1-1.9-1.25c-.65-.27-1.45-.45-2.56-.5-1.1-.05-1.46-.06-4.25-.06z" fill="white"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <a href="portfolio_data/YOGESH - Resume.pdf" class="btn btn-primary" download>Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 YOGESH. All Rights Reserved.</p>
+    </footer>
+
+    <!-- GSAP & ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+{
+  "personalInfo": {
+    "name": "YOGESH",
+    "role": "Aspiring Software Developer/Engineer",
+    "email": "yogeshdevx@gmail.com",
+    "location": "India",
+    "education": "B.Tech – Computer Science & Engineering"
+  },
+  "about": "Second-year B.Tech Computer Science student with strong interest in Data Structures & Algorithms and Software Development. Actively solving coding problems and building projects while strengthening core computer science fundamentals. Seeking opportunities to grow as a Software Developer and contribute to real-world projects.",
+  "skills": {
+    "languages": ["Java", "C++", "Python", "JavaScript", "HTML", "CSS"],
+    "core": ["Data Structures", "Algorithms", "OOP", "DBMS"],
+    "tools": ["Git", "GitHub", "VS Code", "MySQL", "REST APIs"],
+    "frameworks": ["React", "Next.js", "Node.js", "Express", "MongoDB"]
+  },
+  "projects": [
+    {
+      "title": "Scientific Calculator",
+      "category": "Web Application",
+      "tools": "JavaScript, HTML, CSS",
+      "image": "images/Solidx.png"
+    }
+  ],
+  "experience": [
+    {
+      "title": "B.Tech – Computer Science & Engineering",
+      "institution": "Chandra Shekhar Azad University of Agriculture & Technology",
+      "period": "2024 - 2028",
+      "description": "Currently pursuing my Bachelor's degree. Focusing on Data Structures & Algorithms, OOP, Database Management Systems, and building strong computer science fundamentals."
+    },
+    {
+      "title": "Coding Practice",
+      "institution": "LeetCode & Problem Solving",
+      "period": "Now",
+      "description": "Solved 50+ problems on LeetCode focusing on Arrays, Strings, Hashing, and Recursion."
+    },
+    {
+      "title": "Hackathons & Competitions",
+      "institution": "UIDAI & University Level",
+      "period": "2024",
+      "description": "Participated in a National Level Data Hackathon organized by UIDAI. Collaborated with peers in a University Level Hackathon."
+    }
+  ],
+  "links": {
+    "github": "https://github.com/yogeshdevx",
+    "linkedin": "https://www.linkedin.com/in/yogeshdevx/",
+    "leetcode": "https://leetcode.com/u/yogeshdevx/",
+    "instagram": "https://instagram.com/yogeshdevx",
+    "resume": "YOGESH - Resume.pdf"
+  }
+}

@@ -1,40 +1,8 @@
 // Wait for DOM to load
 document.addEventListener('DOMContentLoaded', () => {
 
-    // 1. Loading Page Logic
-    const loader = document.getElementById('loader');
-    const percentageText = document.querySelector('.loader-percentage');
-    let percentage = 0;
-
-    function updateLoader() {
-        const interval = setInterval(() => {
-            percentage += Math.floor(Math.random() * 15) + 1;
-            if (percentage >= 100) {
-                percentage = 100;
-                clearInterval(interval);
-                hideLoader();
-            }
-            percentageText.innerText = `${percentage}%`;
-        }, 120);
-    }
-
-    function hideLoader() {
-        setTimeout(() => {
-            const tl = gsap.timeline();
-            tl.to(loader, {
-                opacity: 0,
-                duration: 1,
-                ease: "power2.inOut",
-                onComplete: () => {
-                    loader.style.display = 'none';
-                    document.body.classList.remove('loading');
-                    startHeroAnimations();
-                }
-            });
-        }, 300);
-    }
-
-    updateLoader();
+    // Start hero animations immediately since loader is removed
+    startHeroAnimations();
 
     // 2. Hamburger Menu Toggle
     const hamburger = document.getElementById('hamburger');

@@ -649,3 +649,141 @@ footer {
     .loader-pill { padding: 1rem 2.5rem; gap: 2rem; }
     .loader-bg-text { font-size: 16vw; }
 }
+
+/* About Section Enhancements */
+.about-content.glass {
+    padding: 3rem;
+    border-radius: 20px;
+    background: var(--card-bg);
+}
+
+.highlight-text {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 2.5rem;
+    color: var(--text-main);
+    text-align: center;
+}
+
+.highlight-text strong {
+    color: var(--primary);
+    font-weight: 800;
+}
+
+.highlight {
+    color: var(--secondary);
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+}
+
+.highlight::after {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background: var(--primary);
+    opacity: 0.2;
+    z-index: -1;
+    border-radius: 4px;
+    transform: rotate(-1deg);
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.about-card {
+    background: rgba(var(--primary), 0.03);
+    border: 1px solid var(--glass-border);
+    padding: 2rem;
+    border-radius: 15px;
+    transition: var(--transition);
+}
+
+.about-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--secondary);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.about-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 5px 15px rgba(0, 136, 204, 0.3);
+}
+
+.about-card h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: var(--text-main);
+}
+
+.about-card p {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+}
+
+/* About Section Flex Layout */
+.about-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-items: center;
+}
+
+.about-image-col {
+    flex: 1 1 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-wrapper .about-content {
+    flex: 2 1 500px;
+}
+
+.about-image-container {
+    position: relative;
+    border-radius: 20px;
+    padding: 10px;
+    background: var(--card-bg);
+    border: 1px solid var(--glass-border);
+    max-width: 400px;
+    width: 100%;
+}
+
+.about-image-container img {
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+    position: relative;
+    z-index: 2;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.image-glow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120%;
+    height: 120%;
+    background: radial-gradient(circle, var(--primary) 0%, transparent 60%);
+    opacity: 0.15;
+    z-index: 1;
+    pointer-events: none;
+    filter: blur(40px);
+}

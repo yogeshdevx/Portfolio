@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // 3. Typed.js for Role Switcher
     if (document.querySelector('.role')) {
         new Typed('.role', {
-            strings: ['Aspiring Software Developer', 'Computer Science Student', 'Problem Solver', 'Tech Enthusiast'],
+            strings: ['CS Student', 'Full Stack Developer Intern', 'Problem Solver', 'React & Node.js Developer', 'Tech Enthusiast'],
             typeSpeed: 60,
             backSpeed: 40,
             loop: true

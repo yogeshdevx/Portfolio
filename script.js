@@ -160,4 +160,32 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // 7. Background Audio Autoplay on User Interaction
+    const bgAudio = document.getElementById('bg-audio');
+    if (bgAudio) {
+        let hasPlayed = false;
+        
+        const playAudio = () => {
+            if (!hasPlayed && bgAudio.paused) {
+                const playPromise = bgAudio.play();
+                if (playPromise !== undefined) {
+                    playPromise.then(() => {
+                        hasPlayed = true;
+                        // Remove listeners once playing successfully
+                        ['click', 'scroll', 'touchstart', 'keydown'].forEach(event => {
+                            window.removeEventListener(event, playAudio);
+                        });
+                    }).catch(err => {
+                        console.log("Audio autoplay failed:", err);
+                    });
+                }
+            }
+        };
+
+        // Listen for user interactions to start playback
+        ['click', 'scroll', 'touchstart', 'keydown'].forEach(event => {
+            window.addEventListener(event, playAudio, { once: true });
+        });
+    }
+
 });
